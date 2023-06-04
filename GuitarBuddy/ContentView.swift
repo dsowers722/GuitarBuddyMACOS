@@ -44,41 +44,10 @@ struct ContentView: View {
 struct MainView: View {
     var body: some View {
         VStack {
-            Text("Welcome to GuitarBuddy! What would you like to do?").font(.caption).fontWeight(.semibold).foregroundColor(Color.gray).padding(.top)
+            Text("Welcome to GuitarBuddy! Please use the side bar to navigate our options.").font(.caption).fontWeight(.semibold).foregroundColor(Color.gray).padding(.top)
         }
     }
 }
-
-struct TunerView: View {
-    var body: some View {
-        VStack {
-            Text("Welcome to GuitarBuddy! What would you like to do?").font(.caption).fontWeight(.semibold).foregroundColor(Color.gray).padding(.top)
-        }
-    }
-}
-
-struct PlayerView: View {
-    var body: some View {
-        VStack {
-            Text("Welcome to GuitarBuddy! What would you like to do?").font(.caption).fontWeight(.semibold).foregroundColor(Color.gray).padding(.top)
-        }
-    }
-}
-
-
-func Tuner() {
-    print("Tuner")
-}
-
-func Notes() {
-    print("\"Notes\" will show the notes you play.")
-}
-
-func Player() {
-    print("Player")
-}
-
-
 
 //This is just for the preview
 struct ContentView_Previews: PreviewProvider {

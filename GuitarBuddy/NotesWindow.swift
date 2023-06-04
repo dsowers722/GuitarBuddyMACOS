@@ -5,11 +5,14 @@
 //  Created by Daniel Sowers on 6/1/23.
 //
 
+import Foundation
 import SwiftUI
 
 struct NotesView: View {
     var body: some View {
+        VStack {
             Text("Notes").font(.caption).fontWeight(.semibold).foregroundColor(Color.gray).padding(.top)
+        }
     }
 }
 
